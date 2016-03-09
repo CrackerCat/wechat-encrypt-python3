@@ -16,8 +16,8 @@ import struct
 from Crypto.Cipher import AES
 import xml.etree.cElementTree as ET
 import socket
-import ierror
 import logging
+from . import ierror
 
 
 logger = logging.Logger(__name__)
